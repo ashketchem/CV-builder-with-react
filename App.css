@@ -1,0 +1,86 @@
+main {
+  margin: 0;
+  paddign: 0;
+  box-sizing: boder-box;
+  font-family: 'Times New Roman', Times, serif, poppins, sans-serif;
+  background: linear-gradient(45deg, #35fcdf, #2860ed);
+}
+
+.App {
+  text-align: center;
+  margin: 1px;
+  padding: 5px;
+  border: 1px solid #000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  /*background-color: #009dff;*/
+  padding:10px;
+  margin: 0px;
+  font-weight: bold;
+  background: linear-gradient(to right, #3526d4, #00ffff);
+}
+
+.Nav {
+  padding: 5px;
+  color: #fff;
+  font-family: 'Cursive';
+  font-size: 24px;
+}
+
+.sec {
+  display: flex;
+  flex-direction: row;
+}
+
+.sec p {
+  border: 1px solid #000;
+  margin: 3px;
+  font-size: 18px;
+}
+
+.Heading {
+  font-size: 24px;
+  color: #fff;
+}
+
+img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.general-info label{
+  marign: 15px;
+  padding: 20px;
+  font-size:20px;
+}
+
+.general-info input:enabled {
+  border: 1px solid #009dff;
+}
+
+.general-info input:invalid {
+  boder: 1px solid orangered;
+}
+
+.general-info button {
+  margin: 10px;
+  padding:10px;
+  border: 2px solid #009dff;
+  border-radius: 5px;
+  background-color: orange;
+  font-size: 18px;
+}
+
+.preview div {
+  margin: 5px;
+  display: flex;
+  border: 1px solid #000;
+  flex-direction: column;
+}
